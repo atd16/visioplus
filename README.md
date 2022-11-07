@@ -1,12 +1,15 @@
 # visioplus
 
-Objectifs :
+## Objectifs
  1. Permettre de porter les débats au coeur des foyer via une webtv
  2. Permettre aux EPCI de transformer les smartphones des élus en boitier de vote électronique
  3. intégrer ce dispositif au sein d'un process plus grand
 
+## Réalisé
 Notre version actuelle permet, en plus des fonctions de base de BBB, déjà un certain nombre de chose, comme :
-- Identification eIDAS1 (LDAP)
+- Identification eIDAS1 : 
+  - LDAP (OIDc)
+  - numéro GSM et confirmation par SMS
 - Signature de la feuille d'émargement à l'entrée dans le salon
 - Vote en direct anonyme ou public
 - Pondération vote
@@ -18,6 +21,7 @@ Notre version actuelle permet, en plus des fonctions de base de BBB, déjà un c
 - Non gênée par les parefeux
 - Séparation des flux entre le son, la voix et le partage d'écran
 
+## Reste à réalisé
 Des évolutions sont nécessaires pour faire de cet outil un outil encore plus fonctionnel pour l'univers de la territoriale qui composent nos adhérents.
 Sans préjuger des évolutions de la réglementation, il est possible de faire de cet outil un outil à double usage :
 - vote en présentiel et

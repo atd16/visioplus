@@ -45,3 +45,11 @@ En quelques mots, voici ce qui est pressenti comme améliorations :
 - Mise en place d'une APIRest pour communiquer avec d'autres outils (Webdelib, PASTELL...)
 - Gestion multi-instance
 - Installation d'une webTV (peerTube)
+
+## Installation
+visioplus est la combinaison de :
+- BBB (https://github.com/atd16/visioplus-bbb)
+- greenlight (https://github.com/atd16/visioplus-gl)
+- livestreaming (https://github.com/atd16/visioplus-livestreaming)
+Dans notre exemple, il s'agit de faire tourner l'ensemble dans des containers docker.
+[Configuration greenlight](https://docs.bigbluebutton.org/greenlight/gl-config.html)
